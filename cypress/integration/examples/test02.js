@@ -15,6 +15,9 @@ describe('second test suite', function()
             }
         })
 
-        cy.get('cart-icon').click
+        cy.wait(2000)
+        cy.get('.cart-icon > img').click()
+        cy.contains('PROCEED TO CHECKOUT').click()
+        cy.contains('Place Order').click()
     })
 })
