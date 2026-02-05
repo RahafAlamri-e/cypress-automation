@@ -36,6 +36,8 @@ describe('Third test suite', function()
         cy.get('[for="radio2"] > [value="radio2"]').check().should('be.checked')
         cy.get('[for="radio1"] > [value="radio1"]').should('not.be.checked')
 
+        
+
 
     })
 })
