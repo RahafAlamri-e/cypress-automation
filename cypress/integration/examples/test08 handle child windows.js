@@ -14,7 +14,6 @@ describe('fifth test suite', function()
         })
         })
 
-        /// u have to be storing and worl hard and i belive i will be somting big in future 
 
     })
 })
