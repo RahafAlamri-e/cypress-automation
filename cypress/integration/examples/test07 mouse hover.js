@@ -1,4 +1,4 @@
-describe('fifth test suite', function()
+describe('Seventh test suite', function()
 {
     it('first test case',function()
     {
